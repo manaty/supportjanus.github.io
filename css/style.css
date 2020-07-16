@@ -1,0 +1,109 @@
+body{
+    text-align:center;
+    font-family: 'Oswald', sans-serif;
+    color:#2a6765;
+    background: #e6e6e6;
+  }
+  .wrap {
+      box-sizing: border-box;
+      max-width: 1200px;
+      margin: 0 auto;
+  }
+  .row{
+    padding:3% 5%;
+    background: #fff;
+  }
+  .hero{
+    background: url('../img/698.png');
+    background-size: cover;
+    color:#fff;
+    padding: 10% 10%;
+  }
+  .hero img{
+    border-radius: 150px;
+    margin-top:50px;
+  }
+  .hero a{
+    text-decoration: none;
+    color:#fff;
+    display: block;
+  }
+  h1, h2{
+    text-transform: uppercase;
+    font-size: 40px;
+  }
+ 
+  .research-item {
+  
+    height:150px;
+    margin:20px 10px;
+    background-size: cover;
+    background-position: center;
+    color:#fff;
+    position: relative;
+
+  }
+  .research-item.qm{
+    background: url('../img/quantum.png');
+    background-size: cover;
+    background-position: center;
+    color:#fff;
+  } 
+  .research-item.cards{
+    background: url('../img/cards.jpg');
+    background-size: cover;
+    background-position: center;
+    color:#fff;
+  } 
+  .research-item.pp{
+    background: url('../img/paypal.jpg');
+    background-size: cover;
+    background-position: center;
+    color:#fff;
+  } 
+  .research-item p{
+    position: absolute;
+    bottom: 0;
+    width: 100%;  
+    text-align: center;  
+  left: 0;    
+  } 
+  .research-item.cosmology{
+    background: url('../img/cosmology.png');
+    background-size: cover;
+    background-position: center;
+
+    color:#fff;
+  } 
+  table{
+    margin: 20px auto;
+  }
+  footer .row{
+    background: #000;
+  }
+  footer a{
+    color: #fff;
+    text-decoration: none;
+    margin:20px;
+    position: relative;
+  }
+  footer a:nth-child(2)::after{
+    position: absolute;
+    content: "";
+    width: 5px;
+    height: 5px;
+    background: #e6e6e6;
+    border-radius: 20px;
+    top: 40%;
+    right: -25px;
+  }
+  footer a:nth-child(2)::before{
+    position: absolute;
+    content: "";
+    width: 5px;
+    height: 5px;
+    background: #e6e6e6;
+    border-radius: 20px;
+    top: 40%;
+    left: -25px;
+  }
